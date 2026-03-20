@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Loft';
+    src: url('/fonts/Loft W01 Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('/fonts/Fixture-Black.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google';
+    src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter_24pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important; 
+}
+
+.special-font {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 150%;
+}
+
+button.w-1\/3.px-4.py-2.bg-green-600.text-white.rounded-md.focus\:outline-none.focus\:ring-2.focus\:ring-green-400 {
+    background-color: #449a41 !important;
+}
+
+.focus\:ring-indigo-500:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: #449a41 !important;
+}
+
+.focus\:border-indigo-500:focus {
+    --tw-border-opacity: 1;
+    border-color: #449a41 !important;
+}
+
+.text-indigo-600 {
+    --tw-text-opacity: 1;
+    color: #449a41 !important;
+}
+
+.bg-blue-500 {
+    --tw-bg-opacity: 1;
+    background-color: #449a41 !important;
+}
